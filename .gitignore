@@ -26,4 +26,4 @@ dist-ssr
 /.vscode/
 /.lsp/
 /.clj-kondo/
-/resources/js/cljs-runtime
+/resources/js
