@@ -1,0 +1,3 @@
+* CLJS Tauri Template
+
+A very basic template for getting started with CLJS + Tauri.

@@ -1,0 +1,12 @@
+{:source-paths ["src"]
+
+ :dependencies
+ [[reagent "1.2.0"]]
+
+ :builds
+ {:app {:target     :browser
+        :output-dir "resources/js"
+        :asset-path "/js"
+        :modules    {:app {:entries [cljs-tauri-template.core]}}
+        :devtools   {:http-root "resources"
+                     :http-port 8081}}}}
